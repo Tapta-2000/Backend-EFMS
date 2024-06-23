@@ -16,7 +16,7 @@ app.use(express.json());
  
 app.get('/',(req,res)=>
 {
-    res.send("hello tapta");
+    res.json("hello tapta");
 });
 app.get('/Employeeform',async(req,res)=>
 {
