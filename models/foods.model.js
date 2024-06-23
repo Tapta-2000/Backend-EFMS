@@ -8,4 +8,4 @@ foodschema=new mongoose.Schema({
     description:String
 })
 
-module.exports=mongoose.model('Myfoods',foodschema,'Myfoods');
+module.exports=mongoose.model('Myfoods',foodschema,'Myfoods'); 

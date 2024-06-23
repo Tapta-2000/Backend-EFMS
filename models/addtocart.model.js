@@ -4,7 +4,7 @@ const addtocart=new mongoose.Schema(
     {
         anyoffer:String,
         image:String,
-        category:String,
+        category:String, 
         model:String,
         mrp:Number,
         price:String,

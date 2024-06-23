@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1/EFMS', {
+const url = "mongodb+srv://tapta_s_d:Jagu7969%4092@cluster0.gbcf12o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+mongoose.connect(url, {
 
     useNewUrlParser: true,
 
@@ -9,7 +11,7 @@ mongoose.connect('mongodb://127.0.0.1/EFMS', {
 
     .then((result) => {
 
-        console.log("connect");
+        console.log("connected with Mongodb");
         
 
     })

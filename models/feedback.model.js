@@ -2,7 +2,7 @@ const mongoose=require("mongoose");
 feedschema=new mongoose.Schema({
     one:String,
     two:String,
-    third:String,
+    third:String, 
     four:String,
     five:String,
     six:String,

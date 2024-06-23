@@ -6,7 +6,7 @@ const product=new mongoose.Schema({
     model:String,
     mrp:Number,
     price:Number,
-    star:Number
+    star:Number 
 });
 
 module.exports=mongoose.model('myproducts',product,'products')
