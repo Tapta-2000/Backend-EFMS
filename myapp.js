@@ -14,7 +14,10 @@ const signin=require('./models/signin.model');
 app.use(cors());
 app.use(express.json());
  
-
+app.get('/',(req,res)=>
+{
+    res.send("hello tapta");
+});
 app.get('/Employeeform',async(req,res)=>
 {
     const data=await mongodata.find();
