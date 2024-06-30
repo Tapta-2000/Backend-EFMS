@@ -14,7 +14,7 @@ const signin=require('./models/signin.model');
 
 
 const corsOptions = {
-    origin: ['http://localhost:4200', 'frontend-efms-15ja85nd2-tapta-dalais-projects.vercel.app']
+    origin: ['http://localhost:4200','https://frontend-efms.vercel.app' ,'frontend-efms-15ja85nd2-tapta-dalais-projects.vercel.app']
     // Add more origins as needed
   };
   
