@@ -11,7 +11,18 @@ jsonparser=bodyparser.json();
 const mongodata=require('./models/mongo.model');
 const newfood=require('./models/foods.model');
 const signin=require('./models/signin.model');
-app.use(cors());
+
+
+const corsOptions = {
+    origin: ['http://localhost:4200', 'https://backend-efms.vercel.app']
+    // Add more origins as needed
+  };
+  
+  app.use(cors(corsOptions));
+  
+ 
+
+
 app.use(express.json());
  
 app.get('/',(req,res)=>
